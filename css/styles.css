@@ -240,7 +240,7 @@ figure>figcaption>.title {
 }
 .header{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -281,6 +281,9 @@ figure>figcaption>.title {
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+.lorem-list-element{
+    width: 270px;
 }
 #second-section{
     padding: 0;
@@ -372,6 +375,8 @@ figure>figcaption>.title {
 }
 .lorem-icons{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
     padding-bottom: 30px;
 }
